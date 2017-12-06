@@ -3,22 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Psychic Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--link rel="stylesheet" type="text/css" href="assets/css/reset.css"!--s>
+	<!--link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"!-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 	<div class="container"> 
 		<div class="col-md-3"></div>
-		<div class="col-md-6 text-center">
+		<div class="col-md-6 text-center"><!-- I wanted to practice my bootstrap skills but I ran out of time!-->
 			<header>
 				<h1> Psychic Game </h1>
 			</header>
 			<div class="Instructions"> 
 				<h2> Guess what letter I am thinking of?</h2>
-
 			</div>
+			<div class="play">
+					<ul class="list">
+					  <li class="list-item"><p id="wins">Wins: </p></li>
+					  <li class="list-item"><p id="losses">Losses: </p></li>
+					  <li class="list-item"><p id="guessleft">Guesses Left: </p></li>
+					  <li class="list-item"><p id="guessessofar">Your Guesses So Far: </p></li>
+					</ul>
+			</div>
+		</div>
 	</div>
 </body>
+<script type="text/javascript" src="assets/javascript/game.js"> </script>
+		
 </html>
